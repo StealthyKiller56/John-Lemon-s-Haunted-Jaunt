@@ -6,6 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
 
     public Transform player;
+    public GameEnding gameEnding;
     bool m_IsPlayerInRange;
 
     // Start is called before the first frame update
@@ -47,4 +48,5 @@ public class NewBehaviourScript : MonoBehaviour
             m_IsPlayerInRange = false;
         }
     }
+
 }
